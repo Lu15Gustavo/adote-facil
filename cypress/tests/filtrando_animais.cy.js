@@ -1,7 +1,7 @@
 describe('template spec', () => {
   it('passes', () => 
     {
-    cy.visit('http://localhost:3001/login')
+    cy.visit('http://localhost:3000/login')
     cy.get('[name="email"]').type('luisgoncalves@aluno.ufop.edu.br')
     cy.get('[name="password"]').type('12344321')
     cy.get('.Button-styles__Button-sc-88c754c5-0').click()
